@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="10dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="13dp"
+    android:backgroundTint="@color/new_middle_teal">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/country_name_view"
+            android:text="@string/country"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/country_name"
+            android:layout_width="100dp"
+            android:textSize="16dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:id="@+id/country_region_view"
+            android:text="@string/region"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="150dp"/>
+
+        <TextView
+            android:id="@+id/country_region"
+            android:layout_width="100dp"
+            android:textSize="16dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="150dp"/>
+
+        <TextView
+            android:id="@+id/country_code_view"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/code"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_gravity="end"/>
+
+        <TextView
+            android:id="@+id/country_code"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textSize="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:id="@+id/country_capital"
+            android:layout_width="200dp"
+            android:textSize="16dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="90dp"/>
+
+        <TextView
+            android:id="@+id/country_capital_view"
+            android:text="@string/capital"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="90dp"/>
+
+</androidx.cardview.widget.CardView>
